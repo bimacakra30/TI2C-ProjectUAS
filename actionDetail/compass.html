@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+        }
+        .product-detail {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .product-detail:hover {
+            transform: translateY(-5px);
+        }
+        .product-detail img {
+            max-width: 350px;
+            height: auto;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .product-detail img:hover {
+            transform: scale(1.03);
+        }
+        .product-detail h2 {
+            margin-bottom: 15px;
+            color: #333;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+        .product-detail p {
+            margin-bottom: 20px;
+            color: #555;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        .product-detail button {
+            padding: 12px 25px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 600;
+            outline: none;
+        }
+        .product-detail button:hover {
+            background-color: #0056b3;
+        }
+        .product-detail a {
+            text-decoration: none;
+            color: #007bff;
+            margin-top: 15px;
+            display: inline-block;
+            font-weight: 600;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+        .product-detail a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="product-detail">
+            <img src="../asset/sepatu/compass.png" alt="Product Image">
+            <h2>Compass Shoes</h2>
+            <p>Sepatu tahan lama untuk petualangan luar ruangan.</p>
+            <p>Price: Rp. 2,500,000</p>
+            <a href="../sepatu.php"><button>Memasukkan Keranjang</button></a>
+            <a href="../index.php">Kembali Ke Beranda</a>
+        </div>
+    </div>
+</body>
+</html>
