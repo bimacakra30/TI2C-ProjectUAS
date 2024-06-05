@@ -70,63 +70,7 @@
             text-align: center;
             margin-bottom: 20px;
             font-size: 2em;
-        }
-
-        .category {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            gap: 20px;
-        }
-
-        .category-item {
-            flex: 1 1 calc(25% - 20px);
-            text-align: center;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            text-decoration: none;
-            color: inherit;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        .category-item h3,
-        .category-item p {
-            color: #000;
-        }
-
-        .category-item img {
-            max-width: 100%;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            height: 250px;
-            transition: transform 0.3s;
-        }
-
-        .category-item:hover {
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .category-item:hover img {
-            transform: scale(1.05);
-        }
-
-        @media (max-width: 768px) {
-            .category-item {
-                flex: 1 1 calc(50% - 20px);
-            }
-        }
-
-        @media (max-width: 576px) {
-            .category-item {
-                flex: 1 1 calc(100% - 20px);
-            }
-        }
-
-
-
-        .features {
+        }.features {
             display: flex;
             justify-content: space-around;
             text-align: center;
